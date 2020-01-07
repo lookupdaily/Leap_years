@@ -1,4 +1,4 @@
-require 'leap_years.rb'
+require 'leap_years'
 
 describe 'A leap year' do
 
