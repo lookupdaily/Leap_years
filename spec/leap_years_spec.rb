@@ -25,7 +25,7 @@ describe 'A leap year' do
     end
 
     it 'returns true if passed 2008' do
-      expect(leap_year(2004)).to eq true
+      expect(leap_year(2008)).to eq true
     end
 
     it 'returns false if passed 100' do
