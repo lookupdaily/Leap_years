@@ -34,4 +34,32 @@ describe 'A leap year' do
 
   end
 
+  context 'must be divisible by 4:' do
+
+    it 'returns false if passed 2011' do
+      expect(leap_year(2011)).to eq false
+    end
+
+  end
+
+  context 'matched example outputs:' do
+
+    it 'returns false if passed 1970' do
+      expect(leap_year(1970)).to eq false
+    end
+
+    it 'returns false if passed 1900' do
+      expect(leap_year(1900)).to eq false
+    end
+
+    it 'returns true if passed 1988' do
+      expect(leap_year(1988)).to eq true
+    end
+
+    it 'returns false if passed 1500' do
+      expect(leap_year(1500)).to eq false
+    end
+
+  end
+
 end
